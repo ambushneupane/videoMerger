@@ -1,7 +1,7 @@
 
 # this script returns the list of videos (.mp4) from the path you choose. 
 import os
-pathOfVideo=input("Enter the full path where videos are located. Make sure to add '/' (for unix users) or '\\'(for windows user) at the end of the path:-")
+pathOfVideo=input("Enter the full path where videos are located.")
 
 def array_Of_Videos():
   fileExists= os.path.exists(pathOfVideo) #returns a boolen
